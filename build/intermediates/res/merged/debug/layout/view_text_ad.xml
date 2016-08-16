@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:background="#232325">
+    
+    <RelativeLayout
+        android:layout_width="36dp"
+        android:layout_height="match_parent"
+        android:background="#151516">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_ad_text_horn"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:text="这是测试数据"
+        android:textColor="#bdbdbd"
+        android:textSize="@dimen/text_size_f15"
+        android:gravity="center_vertical"
+        android:layout_marginRight="12dp"/>
+
+</LinearLayout>

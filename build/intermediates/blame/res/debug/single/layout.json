@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_third_login.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_third_login.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_login.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_login.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_login_second.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_login_second.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_register.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_register.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_login.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/toast.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/toast.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_bind.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_bind.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/view_text_ad.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/view_text_ad.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_purchase_channel.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_purchase_channel.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/history_item.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/history_item.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_vcode.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_vcode.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_change.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_change.xml"
+    },
+    {
+        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/activity_fragment.xml",
+        "source": "/Users/eleven/Downloads/GameSDK/res/layout/activity_fragment.xml"
+    }
+]

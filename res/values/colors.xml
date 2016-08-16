@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="activity_background">#231815</color>
+    <color name="text_yellow">#efff38</color>
+    <color name="text_black">@android:color/black</color>
+    <color name="text_white">@android:color/white</color>
+    <color name="title_color">#fcc800</color>
+    <color name="title_background">#2f2f31</color>
+    <color name="line_color">#6e6e6f</color>
+    <color name="edit_bg">#232325</color>
+    <color name="edit_text">@android:color/white</color>
+    <color name="error_color">#ff006c</color>
+    <color name="vcode_color">#bcbcbd</color>
+
+    <color name="color_special_rights">#a78309</color>
+    <color name="color_c1">#a5a5a5</color>
+    <color name="color_c2">#151516</color>
+    <color name="color_c3">#bdbdbd</color>
+    <color name="color_c4">#232325</color>
+
+</resources>

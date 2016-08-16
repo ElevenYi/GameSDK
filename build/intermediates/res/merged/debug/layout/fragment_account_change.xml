@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="@dimen/content_width"
+        android:layout_height="@dimen/content_heigth"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="90.0dp"
+                android:layout_height="75.0dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo"/>
+
+            <TextView android:id="@+id/user_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/login_success"
+                android:textColor="@color/text_yellow"
+                android:textSize="@dimen/title_font"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button android:id="@+id/enter_game"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_heigth"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/button"
+                android:text="@string/enter_game"
+                android:textSize="@dimen/button_font"
+                android:textColor="@color/text_black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/change_account"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/change_bg">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/change_icon"
+                android:layout_marginLeft="30.0dp"
+                android:layout_gravity="center_vertical"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dp"
+                android:text="@string/change_account"
+                android:textSize="@dimen/button_font"
+                android:textColor="@color/text_white"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

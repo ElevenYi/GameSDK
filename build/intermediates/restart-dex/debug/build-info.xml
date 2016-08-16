@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a"
+    api-level="17"
+    density="hdpi"
+    format="7"
+    timestamp="1471328049062372000"
+    token="-9163481084307998377" >
+
+    <task
+        name="javac"
+        duration="1006" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="44" />
+    <task
+        name="verifier"
+        duration="5" />
+
+    <artifact
+        location="/Users/eleven/Downloads/GameSDK/build/outputs/apk/GameSDK-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="1471328049062372000" >
+        <artifact
+            location="/Users/eleven/Downloads/GameSDK/build/outputs/apk/GameSDK-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

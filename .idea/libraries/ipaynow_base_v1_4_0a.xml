@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ipaynow_base_v1.4.0a">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/ipaynow_base_v1.4.0a.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

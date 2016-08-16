@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GameSDK</string>
+    <string name="channel">2</string>
+    <string name="tourist">立刻一键试玩</string>
+    <string name="qqlogin">QQ</string>
+    <string name="weibologin">微博</string>
+    <string name="accountlogin">帐号登录</string>
+    <string name="accountregister">注册帐号</string>
+    <string name="login_title">怪猫通行证登录</string>
+    <string name="register_title">注册怪猫通行证</string>
+    <string name="address">GM88.COM</string>
+    <string name="account_hint">请输入手机号</string>
+    <string name="passport_hint">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="passport_error">密码格式不符合要求</string>
+    <string name="account_error">手机格式不符合要求</string>
+    <string name="register_success">恭喜您！注册成功！</string>
+    <string name="register_error">注册失败！</string>
+    <string name="login_success">欢迎您！%1$s！</string>
+    <string name="login_error">登录失败！</string>
+    <string name="account_bing_error">请求绑定的帐号已被绑过</string>
+    <string name="send_vcode_success">发送成功!</string>
+    <string name="vcode_message">验证码已经发送到手机%1$s</string>
+    <string name="vcode_hint">请输入4位验证码</string>
+    <string name="vcode_try">(%1$d)后重发</string>
+    <string name="send_vcode">发送验证码</string>
+    <string name="bind_message">绑定帐号，享受更多特权！</string>
+    <string name="purchase_channel">选择充值方式</string>
+    <string name="alipay">支付宝</string>
+    <string name="wechat">微信</string>
+    <string name="bank">网银</string>
+    <string name="other">怪猫币</string>
+    <string name="enter_game">进入游戏</string>
+    <string name="change_account">切换帐号</string>
+    <string name="cat_balance">怪猫币余额:</string>
+</resources>

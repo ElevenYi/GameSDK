@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+
+    <RelativeLayout
+        android:id="@+id/ll_fragment_account_bind_content"
+        android:layout_width="@dimen/content_width"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_fragment_account_bind_close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/iv_fragment_account_bind_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_inside_close"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <RelativeLayout
+                android:id="@+id/tl_fragment_account_bind_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dp"
+                android:layout_marginRight="10.0dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <ImageButton android:id="@+id/bind_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_special_rights"
+                        android:background="@android:color/transparent"
+                        android:layout_marginTop="10.0dp"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bind_message"
+                        android:textColor="@color/color_special_rights"
+                        android:gravity="center"
+                        android:textSize="@dimen/text_size_f16"
+                        android:layout_toRightOf="@+id/bind_back"
+                        android:layout_alignBottom="@+id/bind_back"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="10dp"/>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_fragment_account_bind_right_items"
+                android:layout_below="@+id/tl_fragment_account_bind_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:src="@drawable/ic_special_rights_item"
+                        android:layout_marginLeft="36dp"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="特权1：一个账号畅玩所有游戏"
+                        android:textSize="@dimen/text_size_f15"
+                        android:textColor="@color/color_c1"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="12dp">
+
+                    <ImageView
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:src="@drawable/ic_special_rights_item"
+                        android:layout_marginLeft="36dp"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="特权2：专属游戏礼包"
+                        android:textSize="@dimen/text_size_f15"
+                        android:textColor="@color/color_c1"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="12dp">
+
+                    <ImageView
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:src="@drawable/ic_special_rights_item"
+                        android:layout_marginLeft="36dp"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="特权3：专属游戏活动"
+                        android:textSize="@dimen/text_size_f15"
+                        android:textColor="@color/color_c1"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="12dp">
+
+                    <ImageView
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:src="@drawable/ic_special_rights_item"
+                        android:layout_marginLeft="36dp"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="特权4：专属客服，快速反馈问题"
+                        android:textSize="@dimen/text_size_f15"
+                        android:textColor="@color/color_c1"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:id="@+id/fl_fragment_account_bind_reg_and_login"
+                android:layout_below="@+id/ll_fragment_account_bind_right_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="26dp">
+
+                <Button android:id="@+id/bind_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="注册并绑定帐号"
+                    android:textSize="16sp"
+                    android:background="@drawable/button"
+                    />
+
+                <ImageView
+                    android:layout_width="@dimen/button_heigth"
+                    android:layout_height="@dimen/button_heigth"
+                    android:background="@drawable/recommend"/>
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_fragment_account_bind_login_third_part"
+                android:layout_below="@+id/fl_fragment_account_bind_reg_and_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dp"
+                android:layout_marginLeft="30.0dp"
+                android:layout_marginRight="26.0dp"
+                android:orientation="horizontal">
+
+                <LinearLayout android:id="@+id/bind_qq"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_heigth"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5.0dp"
+                    android:gravity="center"
+                    android:background="@drawable/button">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/qq"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6.0dp"
+                        android:layout_centerInParent="true"
+                        android:text="@string/qqlogin"
+                        android:textSize="@dimen/button_font"
+                        android:textColor="@color/text_black"/>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/bind_weibo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5.0dp"
+                    android:gravity="center"
+                    android:background="@drawable/button">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/weibo"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6.0dp"
+                        android:layout_centerInParent="true"
+                        android:text="@string/weibologin"
+                        android:textSize="@dimen/button_font"
+                        android:textColor="@color/text_black"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
+

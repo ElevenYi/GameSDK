@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:layout_width="@dimen/content_width"
+        android:layout_height="@dimen/content_heigth"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dp"
+            android:layout_marginRight="10.0dp"
+            android:layout_marginBottom="6.0dp"
+            android:layout_marginTop="10.0dp">
+            <ImageButton android:id="@+id/vcode_back"
+                android:layout_width="60.0dp"
+                android:layout_height="30.0dp"
+                android:src="@drawable/back"
+                android:background="@android:color/transparent"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:background="@color/line_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/vcode"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send_vcode_success"
+                    android:textColor="@color/text_yellow"
+                    android:textSize="@dimen/title_font"
+                    />
+                <TextView android:id="@+id/vcode_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vcode_message"
+                    android:textColor="@color/vcode_color"
+                    android:textSize="@dimen/sub_title_font"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_height"
+            android:layout_marginTop="10.0dp"
+            android:layout_marginLeft="30.0dp"
+            android:layout_marginRight="20.0dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="16.0dp">
+                <RelativeLayout
+                    android:layout_width="30.0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/vcode_phone"/>
+                </RelativeLayout>
+
+                <EditText android:id="@+id/register_vcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30.0dp"
+                    android:layout_marginRight="80.0dp"
+                    android:paddingLeft="6.0dp"
+                    android:background="@color/edit_bg"
+                    android:hint="@string/vcode_hint"
+                    android:textSize="@dimen/button_font"
+                    android:textColor="@color/edit_text"/>
+
+                <Button android:id="@+id/vcode_try"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/vcode_try"
+                    android:textSize="@dimen/button_font"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/vcode_button"
+                    />
+
+            </RelativeLayout>
+
+            <ImageView android:id="@+id/send_success"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/correct"/>
+        </RelativeLayout>
+
+        <Button android:id="@+id/vcode_register_account"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_heigth"
+            android:layout_marginTop="10.0dp"
+            android:layout_marginLeft="30.0dp"
+            android:layout_marginRight="36.0dp"
+            android:text="@string/register"
+            android:textSize="@dimen/button_font"
+            android:background="@drawable/button"/>
+
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_fragment_account_login_second_content"
+        android:layout_width="@dimen/content_width"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_fragment_account_login_second_Text_news_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <com.game.sdk.widget.TextNewsView
+                android:id="@+id/tav_fragment_account_login_second_news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp" />
+
+
+
+            <RelativeLayout
+                android:id="@+id/rl_fragment_account_login_second_close"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="-10dp"
+                android:layout_marginTop="-10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_outside_close" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_fragment_account_login_second_ad_container"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@+id/rl_fragment_account_login_second_Text_news_container"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/iv_fragment_account_login_second_ad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/ic_defense_cabbage" />
+
+            <TextView
+                android:id="@+id/tv_fragment_account_login_second_ad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_login_success_functions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_fragment_account_login_second_ad_container"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:id="@+id/ll_fragment_account_login_second_function_home"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_home_guaimao" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="6dp"
+                    android:text="怪猫游戏"
+                    android:textColor="#686869"
+                    android:textSize="@dimen/text_size_f12" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_fragment_account_login_second_function_package"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_package_get" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="6dp"
+                    android:text="礼包领取"
+                    android:textColor="#686869"
+                    android:textSize="@dimen/text_size_f12" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_fragment_account_login_second_function_message"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_message_manager" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="6dp"
+                    android:text="消息管理"
+                    android:textColor="#686869"
+                    android:textSize="@dimen/text_size_f12" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_fragment_account_login_second_function_user_center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_user_center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="6dp"
+                    android:text="个人中心"
+                    android:textColor="#686869"
+                    android:textSize="@dimen/text_size_f12" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_fragment_account_bind_change_user"
+            android:layout_below="@+id/ll_login_success_functions"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_change_user"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="-16dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
