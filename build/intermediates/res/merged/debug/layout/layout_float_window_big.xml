@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_float_big_whole"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_float_menu_big_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_float_icon_normal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_float_down_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_float_menu_big_icon"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/rl_float_menu_click_gm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/ic_float_big_window_bg">
+
+            <RelativeLayout
+                android:id="@+id/rl_float_big_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_float_menu_gm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_float_big_window_text_left_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@+id/iv_float_menu_gm"
+                    android:text="点击怪猫"
+                    android:textColor="#323234"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <com.game.sdk.activity.widget.FloatListMenuView
+            android:id="@+id/flmv_float_menu"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_float_menu_click_gm"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-14dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

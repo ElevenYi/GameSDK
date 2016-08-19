@@ -1,58 +1,82 @@
 [
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_third_login.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_third_login.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_third_login.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\fragment_third_login.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_login.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_login.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_account_login_second.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\fragment_account_login_second.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_login_second.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_login_second.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\layout_float_window_big.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\layout_float_window_big.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_register.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_register.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\fragment_login.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_login.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_login.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_purchase_channel.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\fragment_purchase_channel.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/toast.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/toast.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\toast.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\toast.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_bind.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_bind.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_account_login.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\fragment_account_login.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/view_text_ad.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/view_text_ad.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_account_bind.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\fragment_account_bind.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/activity_main.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_item_list_menu.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\adapter_item_list_menu.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_purchase_channel.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_purchase_channel.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\layout_float_list_menu.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\layout_float_list_menu.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/history_item.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/history_item.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\layout_float_hide.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\layout_float_hide.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_vcode.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_vcode.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_account_vcode.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\fragment_account_vcode.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/fragment_account_change.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/fragment_account_change.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_account_change.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\fragment_account_change.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/layout/activity_fragment.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/layout/activity_fragment.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\history_item.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\history_item.xml"
+    },
+    {
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\layout_float_window_small.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\layout_float_window_small.xml"
+    },
+    {
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_account_register.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\fragment_account_register.xml"
+    },
+    {
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragment.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\activity_fragment.xml"
+    },
+    {
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\view_text_ad.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\view_text_ad.xml"
+    },
+    {
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\layout\\layout_float_banner.xml",
+        "source": "D:\\Work\\GameSDK\\res\\layout\\layout_float_banner.xml"
     }
 ]

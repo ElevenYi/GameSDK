@@ -1,30 +1,30 @@
 [
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_message_manager.png",
-        "source": "/Users/eleven/Downloads/GameSDK/res/drawable-xhdpi/ic_message_manager.png"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_ad_text_horn.png",
+        "source": "D:\\Work\\GameSDK\\res\\drawable-xhdpi\\ic_ad_text_horn.png"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_outside_close.png",
-        "source": "/Users/eleven/Downloads/GameSDK/res/drawable-xhdpi/ic_outside_close.png"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_special_rights.png",
+        "source": "D:\\Work\\GameSDK\\res\\drawable-xhdpi\\ic_special_rights.png"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
-        "source": "/Users/eleven/Downloads/GameSDK/res/drawable-xhdpi/ic_launcher.png"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_special_rights_item.png",
+        "source": "D:\\Work\\GameSDK\\res\\drawable-xhdpi\\ic_special_rights_item.png"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_special_rights.png",
-        "source": "/Users/eleven/Downloads/GameSDK/res/drawable-xhdpi/ic_special_rights.png"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_message_manager.png",
+        "source": "D:\\Work\\GameSDK\\res\\drawable-xhdpi\\ic_message_manager.png"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_ad_text_horn.png",
-        "source": "/Users/eleven/Downloads/GameSDK/res/drawable-xhdpi/ic_ad_text_horn.png"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_inside_close.png",
+        "source": "D:\\Work\\GameSDK\\res\\drawable-xhdpi\\ic_inside_close.png"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_inside_close.png",
-        "source": "/Users/eleven/Downloads/GameSDK/res/drawable-xhdpi/ic_inside_close.png"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Work\\GameSDK\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_special_rights_item.png",
-        "source": "/Users/eleven/Downloads/GameSDK/res/drawable-xhdpi/ic_special_rights_item.png"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_outside_close.png",
+        "source": "D:\\Work\\GameSDK\\res\\drawable-xhdpi\\ic_outside_close.png"
     }
 ]

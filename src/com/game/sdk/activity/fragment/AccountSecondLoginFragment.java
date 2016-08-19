@@ -5,22 +5,31 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
+import com.game.sdk.R;
 import com.game.sdk.presenter.UserPresenter;
 import com.game.sdk.widget.TextNewsView;
+
+import butterknife.Bind;
+import butterknife.ButterKnife;
 
 /**
  * Created by eleven on 16/8/16.
  */
 public class AccountSecondLoginFragment extends UserBaseFragment implements View.OnClickListener {
 
-    private RelativeLayout close_RL;
-    private LinearLayout home_LL,package_LL,message_LL,user_LL;
-    private ImageView change_IV,ad_IV;
-    private TextNewsView textNewsView_TNV;
+    RelativeLayout close_RL;
+    LinearLayout home_LL;
+    LinearLayout package_LL;
+    LinearLayout message_LL;
+    LinearLayout user_LL;
+    ImageView change_IV;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -30,20 +39,27 @@ public class AccountSecondLoginFragment extends UserBaseFragment implements View
         package_LL = (LinearLayout) view.findViewById(getIdByName("ll_fragment_account_login_second_function_package"));
         message_LL = (LinearLayout) view.findViewById(getIdByName("ll_fragment_account_login_second_function_message"));
         user_LL = (LinearLayout) view.findViewById(getIdByName("ll_fragment_account_login_second_function_user_center"));
-
         change_IV = (ImageView) view.findViewById(getIdByName("iv_fragment_account_bind_change_user"));
-        ad_IV = (ImageView) view.findViewById(getIdByName("iv_fragment_account_login_second_ad"));
-        textNewsView_TNV = (TextNewsView) view.findViewById(getIdByName("tav_fragment_account_login_second_news"));
+        ButterKnife.bind(this, view);
 
+        initView();
+        initEvents();
 
+        return view;
+    }
+
+    //根据获取接口的数据来显示view
+    private void initView() {
+
+    }
+
+    private void initEvents() {
         close_RL.setOnClickListener(this);
         home_LL.setOnClickListener(this);
         package_LL.setOnClickListener(this);
         message_LL.setOnClickListener(this);
         user_LL.setOnClickListener(this);
         change_IV.setOnClickListener(this);
-
-        return view;
     }
 
     @Override
@@ -81,5 +97,11 @@ public class AccountSecondLoginFragment extends UserBaseFragment implements View
     public void autoLoginFail() {
         LoginFragment loginFragment = LoginFragment.getFragmentByName(baseActivity, LoginFragment.class);
         redirectFragment(loginFragment);
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        ButterKnife.unbind(this);
     }
 }

@@ -5,6 +5,7 @@
     <color name="color_c2">#151516</color>
     <color name="color_c3">#bdbdbd</color>
     <color name="color_c4">#232325</color>
+    <color name="color_c5">#b2b2b2</color>
     <color name="color_special_rights">#a78309</color>
     <color name="edit_bg">#232325</color>
     <color name="edit_text">@android:color/white</color>

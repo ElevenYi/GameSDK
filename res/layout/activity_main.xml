@@ -7,6 +7,7 @@
     android:background="@drawable/test_bg">
 
     <Button
+        android:id="@+id/bt_login"
         android:layout_width="match_parent"
         android:layout_height="44.0dp"
         android:layout_margin="@dimen/activity_horizontal_margin"

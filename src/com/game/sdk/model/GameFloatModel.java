@@ -10,6 +10,7 @@ import org.json.JSONObject;
 
 import com.game.network.HttpListener;
 import com.game.network.HttpProxy;
+import com.game.sdk.PlatFormNew;
 import com.game.sdk.Platform;
 //import com.game.sdk.R;
 import com.game.sdk.bean.User;
@@ -149,7 +150,7 @@ public class GameFloatModel implements IFloatModel, StateCallback {
             }
         } else {
             Log.i(TAG, "resumed activity is not the same, we try to reload popup!!");
-            mState = Platform.getInstance().startFloatView(activity, false);
+            mState = PlatFormNew.getInstance().startFloatView(activity, false);
         }
     }
 
@@ -213,7 +214,7 @@ public class GameFloatModel implements IFloatModel, StateCallback {
             updateState(true);
         } else {
             Log.i(TAG, "calling activity is not the same, we try to reload popup!!");
-            Platform.getInstance().startFloatView((Activity) context, false);
+            PlatFormNew.getInstance().startFloatView((Activity) context, false);
         }
     }
 

@@ -15,6 +15,7 @@ import com.game.sdk.presenter.UserPresenter;
  * Created by echowang on 16/4/24.
  */
 public class AccountChangeFragment extends UserBaseFragment implements View.OnClickListener{
+    
     private Button enterGameBtn;
     private View changeAccountBtn;
     private TextView userInfoText;

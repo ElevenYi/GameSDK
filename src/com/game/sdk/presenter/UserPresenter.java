@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.text.TextUtils;
 
+import com.game.sdk.PlatFormNew;
 import com.game.sdk.Platform;
 import com.game.sdk.activity.GameToast;
 import com.game.sdk.activity.UserActivity;
@@ -59,7 +60,7 @@ public class UserPresenter {
         intent.putExtra("type",UserActivity.BIND);
         context.startActivity(intent);
 
-        Platform.getInstance().setUserState(context,GameFloatModel.IDEL);
+        PlatFormNew.getInstance().setUserState(context,GameFloatModel.IDEL);
     }
 
     public static User getUser(){
@@ -301,7 +302,7 @@ public class UserPresenter {
 //                    userView.showToast("绑定成功");
                     GameToast.showBindToast(userView.getContext(),"绑定成功");
                     userView.closeActivity();
-                    Platform.getInstance().setUserState(context,GameFloatModel.IDEL);
+                    PlatFormNew.getInstance().setUserState(context,GameFloatModel.IDEL);
                 }
             }
 
@@ -343,7 +344,7 @@ public class UserPresenter {
             public void onSuccess(User userBean) {
                 if (userBean != null){
                     if (isBind){
-                        Platform.getInstance().setUserState(userView.getContext(),GameFloatModel.IDEL);
+                        PlatFormNew.getInstance().setUserState(userView.getContext(),GameFloatModel.IDEL);
                         userView.closeActivity();
                     }else{
                         userView.loginSucess(false);
@@ -383,9 +384,9 @@ public class UserPresenter {
 
 //        IUserModel userModel = UserModel.getInstance();
         if (UserModel.getInstance().userNeedBind()){
-            Platform.getInstance().setUserState(userView.getContext(),GameFloatModel.TRIAL);
+            PlatFormNew.getInstance().setUserState(userView.getContext(),GameFloatModel.TRIAL);
         }else{
-            Platform.getInstance().setUserState(userView.getContext(),GameFloatModel.DEFAULT);
+            PlatFormNew.getInstance().setUserState(userView.getContext(),GameFloatModel.DEFAULT);
         }
 //
         CallbackManager.getLoginCallback().loginSuccess(getUser());

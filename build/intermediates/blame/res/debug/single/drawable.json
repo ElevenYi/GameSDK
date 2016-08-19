@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/drawable/float_icon_default.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/drawable/float_icon_default.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\drawable\\float_panel_item_bg.xml",
+        "source": "D:\\Work\\GameSDK\\res\\drawable\\float_panel_item_bg.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/drawable/float_panel_item_bg.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/drawable/float_panel_item_bg.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\drawable\\float_icon_trial.xml",
+        "source": "D:\\Work\\GameSDK\\res\\drawable\\float_icon_trial.xml"
     },
     {
-        "merged": "/Users/eleven/Downloads/GameSDK/build/intermediates/res/merged/debug/drawable/float_icon_trial.xml",
-        "source": "/Users/eleven/Downloads/GameSDK/res/drawable/float_icon_trial.xml"
+        "merged": "D:\\Work\\GameSDK\\build\\intermediates\\res\\merged\\debug\\drawable\\float_icon_default.xml",
+        "source": "D:\\Work\\GameSDK\\res\\drawable\\float_icon_default.xml"
     }
 ]

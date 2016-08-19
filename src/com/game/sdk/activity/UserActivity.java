@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import com.game.sdk.activity.fragment.AccountBindFragment;
 import com.game.sdk.activity.fragment.AccountChangeFragment;
+import com.game.sdk.activity.fragment.AccountSecondLoginFragment;
 import com.game.sdk.activity.fragment.LoginFragment;
 
 public class UserActivity extends BaseActivity {
@@ -25,8 +26,10 @@ public class UserActivity extends BaseActivity {
             AccountBindFragment accountBindFragment = AccountBindFragment.getFragmentByName(this, AccountBindFragment.class);
             initFragment(accountBindFragment);
         }else {
-            AccountChangeFragment accountChangeFragment = AccountChangeFragment.getFragmentByName(this,AccountChangeFragment.class);
-            initFragment(accountChangeFragment);
+            AccountSecondLoginFragment accountSecondLoginFragment = AccountSecondLoginFragment.getFragmentByName(this, AccountSecondLoginFragment.class);
+            initFragment(accountSecondLoginFragment);
+//            AccountChangeFragment accountChangeFragment = AccountChangeFragment.getFragmentByName(this,AccountChangeFragment.class);
+//            initFragment(accountChangeFragment);
         }
 
     }

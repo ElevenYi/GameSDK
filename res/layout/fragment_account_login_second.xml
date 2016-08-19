@@ -6,19 +6,38 @@
     android:background="@android:color/transparent">
 
 
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_fragment_account_login_second_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/rl_fragment_account_login_second_content"
+        android:layout_alignRight="@+id/rl_fragment_account_login_second_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_outside_close" />
+
+    </RelativeLayout>
+
+
     <RelativeLayout
         android:id="@+id/rl_fragment_account_login_second_content"
         android:layout_width="@dimen/content_width"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:background="@drawable/background"
-        android:orientation="vertical">
-
+        android:orientation="vertical"
+        android:paddingTop="10dp">
 
         <RelativeLayout
             android:id="@+id/rl_fragment_account_login_second_Text_news_container"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
 
 
             <com.game.sdk.widget.TextNewsView
@@ -26,23 +45,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp" />
-
-
-
-            <RelativeLayout
-                android:id="@+id/rl_fragment_account_login_second_close"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="-10dp"
-                android:layout_marginTop="-10dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_outside_close" />
-
-            </RelativeLayout>
 
         </RelativeLayout>
 
@@ -60,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                tools:src="@drawable/ic_defense_cabbage" />
+                android:src="@drawable/ic_defense_cabbage" />
 
             <TextView
                 android:id="@+id/tv_fragment_account_login_second_ad"

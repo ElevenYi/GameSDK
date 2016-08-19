@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_adapter_item_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_adapter_item_float_menu_dark"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/iv_adapter_item_float_menu_icon"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            tools:src="@drawable/ic_float_menu_home"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_toRightOf="@+id/iv_adapter_item_float_menu_icon"
+            android:id="@+id/iv_adapter_item_float_menu_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="首页"
+            android:textColor="@color/color_c5"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

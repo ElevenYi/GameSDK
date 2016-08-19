@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/eleven/Downloads/GameSDK/src/androidTest/assets"/><source path="/Users/eleven/Downloads/GameSDK/build/generated/assets/shaders/androidTest/debug"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Work\GameSDK\src\androidTest\assets"/><source path="D:\Work\GameSDK\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>

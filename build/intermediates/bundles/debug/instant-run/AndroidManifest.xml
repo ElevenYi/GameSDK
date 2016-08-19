@@ -15,8 +15,10 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
+        name="com.game.sdk.MainApplication"
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -82,6 +84,9 @@
             android:launchMode="singleTop"
             android:screenOrientation="behind"
             android:theme="@android:style/Theme.NoDisplay" />
+
+        <!-- 悬浮窗的Service -->
+        <service android:name="com.game.sdk.activity.widget.FloatWindowService" />
     </application>
 
 </manifest>

@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86,armeabi-v7a"
-    api-level="17"
-    density="hdpi"
+    abi="x86"
+    api-level="22"
+    density="mdpi"
     format="7"
-    timestamp="1471328049062372000"
-    token="-9163481084307998377" >
+    timestamp="175748490382848"
+    token="5677107914536655159" >
 
     <task
         name="javac"
-        duration="1006" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="44" />
+        duration="0" />
     <task
         name="verifier"
-        duration="5" />
+        duration="0" />
 
-    <artifact
-        location="/Users/eleven/Downloads/GameSDK/build/outputs/apk/GameSDK-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="1471328049062372000" >
+    <build timestamp="174614837918683" >
         <artifact
-            location="/Users/eleven/Downloads/GameSDK/build/outputs/apk/GameSDK-debug.apk"
+            location="D:\Work\GameSDK\build\outputs\apk\GameSDK-debug.apk"
             type="MAIN" />
     </build>
+    <build timestamp="175670768682186" >
+        <artifact
+            location="D:\Work\GameSDK\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="175748490382848" />
 
 </instant-run>

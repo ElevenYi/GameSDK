@@ -22,12 +22,22 @@ import com.game.sdk.presenter.UserPresenter;
  * Created by echowang on 16/4/23.
  */
 public class Platform {
+
+    private static final int STATE_UNLOGIN = 1;         //未登录状态
+    private static final int STATE_TRIAL = 2;           //试玩状态
+    private static final int STATE_SECOND_LOGIN = 3;    //二次登录状态
+    private static final int STATE_GAME = 4;            //游戏状态
+    private static final int STATE_PAY = 5;             //支付中
+    private static final int STATE_BACKGROUND= 6;       //后台
+
+
+    private static int cur_state = STATE_UNLOGIN;
     private static Platform ourInstance;
 
     private SparseArray<StateCallback> mStateCallbacks = new SparseArray<StateCallback>();
 
     private int mState = StateCallback.IDEL;
-    
+
     private final Object obj = new Object();
 
     public static Platform getInstance() {
@@ -97,7 +107,7 @@ public class Platform {
     public void showMeunIcon(Activity activity){
         BuoyMenu.showBuoyMenu(activity);
     }
-    
+
     /**
      * 显示浮标，
      * 在需要显示浮标的activity中调用
@@ -147,7 +157,7 @@ public class Platform {
             mStateCallbacks.valueAt(i).onPause();
         }
     }
-    
+
     /**
      * Platform Activity destroy
      */
@@ -166,7 +176,7 @@ public class Platform {
             mStateCallbacks.valueAt(i).onConfigurationChanged(newConfig);
         }
     }
-    
+
     /**
      * 用户行为变化(游戏中、试玩中、支付中...)
      * @see StateCallback
@@ -195,6 +205,6 @@ public class Platform {
         logout(new LogoutCallback() {
 		});
         ourInstance = null;
-        
+
     }
 }

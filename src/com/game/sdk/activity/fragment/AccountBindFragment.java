@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
+import com.game.sdk.PlatFormNew;
 import com.game.sdk.Platform;
 import com.game.sdk.model.GameFloatModel;
 
@@ -68,7 +69,7 @@ public class AccountBindFragment extends UserBaseFragment implements View.OnClic
 
     private void back(){
 //        GameToast.showLoginSuccess(baseActivity,"登录成功");
-        Platform.getInstance().setUserState(getContext(), GameFloatModel.TRIAL);
+        PlatFormNew.getInstance().setUserState(getContext(), GameFloatModel.TRIAL);
         finishActivity();
     }
 
